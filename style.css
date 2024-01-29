@@ -1,0 +1,83 @@
+.headtitle{
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgba(173, 216, 230, 0.85);
+	line-height: 1.5;
+	text-indent: 50px;
+}
+
+.title1{
+	width: 90%;
+	margin: 20px;
+	padding: 20px;
+	background-color: #00b4d8;
+	text-align: center;	
+}
+
+body{
+	background-image: url('slimehd.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.media{
+	font-weight: lighter;
+	font-family: New Times Roman;
+	font-variant: small-caps;
+	font-style: oblique;
+}
+
+h3{
+	text-indent: 0px;
+	text-decoration: underline;
+}
+
+.dagruel img,
+.dino img,
+.guy img,
+.leon img,
+.luminous img,
+.milim img,
+.ramiris img,
+.rimuru img {
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+}
+
+.dagruel:hover img,
+.dino:hover img,
+.guy:hover img,
+.leon:hover img,
+.luminous:hover img,
+.milim:hover img,
+.ramiris:hover img,
+.rimuru:hover img{
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
+
+.dagruel:active,
+.dino:active,
+.guy:active,
+.leon:active,
+.luminous:active,
+.milim:active,
+.ramiris:active,
+.rimuru:active {
+    font-style: italic;
+}
+
+.dagruel:visited,
+.dino:visited,
+.guy:visited,
+.leon:visited,
+.luminous:visited,
+.milim:visited,
+.ramiris:visited,
+.rimuru:visited {
+    color: red;
+}
+
